@@ -71,7 +71,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-                        <a class="page-scroll" href="index.html">Home</a>
+                                            <a class="page-scroll" href="index.php">Home</a>
                     </li>
 					<li>
                        
