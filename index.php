@@ -82,9 +82,11 @@
                             <a class="page-scroll" href="#menu">Menu</a>
                         </li>
 
-                        <li>
-
+                        
+<li>
+                            <a class="page-scroll" href="carrinho.php">Pedidos</a>
                         </li>
+                        
                         <li>
                             <a class="page-scroll" href="#booking">Fale conosco</a>
                         </li>

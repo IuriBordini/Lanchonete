@@ -93,9 +93,11 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
-
+                       
+<li>
+                            <a class="page-scroll" href="carrinho.php">Pedidos</a>
                         </li>
+                       
                         <li>
 
                         </li>
