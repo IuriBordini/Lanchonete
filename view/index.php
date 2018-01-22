@@ -4,27 +4,27 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="../Lanchonete/css/estilo.css" rel="stylesheet" type="text/css">
+        <link href="../view/css/estilo.css" rel="stylesheet" type="text/css">
         <meta name="description" content="Free Bootstrap Themes designed by 365bootstrap.com" />
         <meta name="author" content="www.365bootstrap.com" />
         <title>Loja Colosso</title>
 
 
         <!-- Bootstrap Core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../view/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
         <!-- Custom Theme files -->
-        <link href="css/style.css" rel='stylesheet' type='text/css' />
-        <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/contact-buttons.css" rel="stylesheet">
+        <link href="../view/css/style.css" rel='stylesheet' type='text/css' />
+        <link href="../view/css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../view/css/contact-buttons.css" rel="stylesheet">
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
+        <script src="../view/js/jquery.min.js"></script>
 
         <!---pop-up-box---->
-        <script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
-        <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+        <script type="text/javascript" src="../view/js/modernizr.custom.min.js"></script>    
+        <script src="../view/js/jquery.magnific-popup.js" type="text/javascript"></script>
         <!---//pop-up-box---->
 
         <script>
@@ -407,8 +407,8 @@
                 });
             });
             </script>
-            <script src="js/jquery.contact-buttons.js"></script>
-            <script src="js/demo.js"></script>
+            <script src="../view/js/jquery.contact-buttons.js"></script>
+            <script src="../view/js/demo.js"></script>
             </body>
             </html>
 
