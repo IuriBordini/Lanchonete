@@ -112,17 +112,17 @@
                                                     <div class="help-block text-right"><a href="">Esqueceu Senha ?</a></div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                                                    <button type="submit" class="btn btn-primary btn-block">Login</button>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox"> keep me logged-in
+                                                        <input type="checkbox"> Manterme logado
                                                     </label>
                                                 </div>
                                             </form>
                                         </div>
                                         <div class="bottom text-center">
-                                            New here ? <a href="#"><b>Join Us</b></a>
+                                            Nao possui conta ? <a href="#"><b>Cadastre-se </b></a>
                                         </div>
                                     </div>
                                 </li>
