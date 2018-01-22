@@ -361,16 +361,13 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-4 col-footer footer-2">
-                                <div class="footer-heading"><h4>About Us</h4></div>
+                            <div classcol-md-6 col-md-offset-3">
+                                <div class="footer-heading"><h4>LANCHONETE COLOSSO</h4></div>
                                 <div class="content">
                                     
                                 </div>
                             </div>
-                            <div class="col-md-4 col-footer footer-3">
-                                <div class="footer-heading"><h4>Labels</h4></div>
-                                <div class="content">
-                                    <ul>
+                            
 
                                         <li><a href="#services">Serviços</a></li>
                                         <li><a href="#menu">Menus</a></li>

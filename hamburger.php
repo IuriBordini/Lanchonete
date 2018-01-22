@@ -233,6 +233,12 @@
     <div class="wrap-footer">
         <div class="clearfix">
             <div class="col-md-6 col-md-offset-3">
+                                <div class="footer-heading"><h4>LANCHONETE COLOSSO</h4></div>
+                                <div class="content">
+                                    
+                                </div>
+                            </div>
+            <div class="col-md-6 col-md-offset-3">
                 <p>Copyright 2018 - <a href="" target="_blank" rel="nofollow">Umbrella</a> </p>
             </div>
         </div>	
