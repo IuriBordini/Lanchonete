@@ -78,7 +78,9 @@
                         <li>
                             <a class="page-scroll" href="index.php">Home</a>
                         </li>
-                       
+                        <li>
+                             <a class="page-scroll" href="contact.php">Fale conosco</a>
+                        </li>
                        
                         
                         <li>

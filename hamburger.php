@@ -99,7 +99,7 @@
                         </li>
                        
                         <li>
-
+ <a class="page-scroll" href="contact.php">Fale conosco</a>
                         </li>
 
                     </ul>

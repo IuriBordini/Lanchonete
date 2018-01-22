@@ -88,7 +88,7 @@
                         </li>
                         
                         <li>
-                            <a class="page-scroll" href="#booking">Fale conosco</a>
+                            <a class="page-scroll" href="contact.php">Fale conosco</a>
                         </li>
 
                         <li class="dropdown">
@@ -351,6 +351,7 @@
            <div class="coppy-right">
     <div class="wrap-footer">
         <div class="clearfix">
+            <a  href="contact.php">Fala conosco</a>
             <div class="col-md-6 col-md-offset-3">
                                 <div class="footer-heading"><h4>LANCHONETE COLOSSO</h4></div>
                                 <div class="content">
