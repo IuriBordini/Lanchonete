@@ -124,7 +124,7 @@
                                             </form>
                                         </div>
                                         <div class="bottom text-center">
-                                            Nao possui conta ? <a href="#"><b>Cadastre-se </b></a>
+                                            Nao possui conta ? <a href="formCliente.php"><b>Cadastre-se </b></a>
                                         </div>
                                     </div>
                                 </li>
