@@ -4,9 +4,10 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="../Lanchonete/css/estilo.css" rel="stylesheet" type="text/css">
         <meta name="description" content="Free Bootstrap Themes designed by 365bootstrap.com" />
         <meta name="author" content="www.365bootstrap.com" />
-        <title>Umbrella</title>
+        <title>Loja Colosso</title>
 
 
         <!-- Bootstrap Core CSS -->
@@ -75,19 +76,57 @@
                             <a class="page-scroll" href="index.php">Home</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#services">Services</a>
+                            <a class="page-scroll" href="#services">Sobre Nós</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#menu">Menu</a>
                         </li>
-                        <li>
-                            <a class="page-scroll" href="#staff">Nosso Chef</a>
-                        </li>
+
                         <li>
 
                         </li>
                         <li>
                             <a class="page-scroll" href="#booking">Fale conosco</a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                            <ul id="login-dp" class="dropdown-menu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            Login via
+                                            <div class="social-buttons">
+                                                <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                                                <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                                            </div>
+                                            or
+                                            <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputEmail2">Email</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputPassword2">Senha</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                    <div class="help-block text-right"><a href="">Esqueceu Senha ?</a></div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> keep me logged-in
+                                                    </label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="bottom text-center">
+                                            New here ? <a href="#"><b>Join Us</b></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
 
                     </ul>
@@ -96,7 +135,9 @@
         </nav>
 
 
+        
         <!-- Carousel -->
+            <header>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -111,10 +152,14 @@
                     <!-- Static Header -->
                     <div class="header-text hidden-xs">
                         <div class="col-md-12 text-center">
-                            <h2>Welcome to Red-Restaurant</h2>
+                           <br>
+                            
+                            <br> 
                             <br>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            
                             <br>
+                            <h2>Lanchonete Colosso</h2>
+                            
 
                         </div>
                     </div><!-- /header-text -->
@@ -124,10 +169,15 @@
                     <!-- Static Header -->
                     <div class="header-text hidden-xs">
                         <div class="col-md-12 text-center">
-                            <h2>The World's 50 Best Restaurants</h2>
+                            
+                             <br>
+                           
                             <br>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
                             <br>
+                           
+                            <br>
+                            <h2>Variados Sabores De Pizza</h2>
+                            
 
                         </div>
                     </div><!-- /header-text -->
@@ -137,10 +187,13 @@
                     <!-- Static Header -->
                     <div class="header-text hidden-xs">
                         <div class="col-md-12 text-center">
-                            <h2>National Restaurant Association</h2>
                             <br>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            
+                            <br><br>
+                            
                             <br>
+                            <h2>Confira Nossos Combos </h2>
+                            
 
                         </div>
                     </div><!-- /header-text -->
@@ -198,352 +251,164 @@
 
         <!-- ////////////Compre já os Produtos-->
         <!-- ////////////Content Box 02 -->
-    <section class="box-content box-2 box-style" id="menu">
-			<div class="container">
-				<div class="row heading">
-					<div class="col-lg-12">	
-						<h2>Menu</h2>
-						<div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut</br> laoreet dolore magna aliquam erat volutpat.
-						Ut wisi enim ad.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut .</div>
-	                </div>
-				</div>
-				<div class="row">
-					<div class="col-xs-6">
-						<div class="box-item">
-							<div class="col-sm-6">
-                               
-								<div class="media"><img class="media__image " src="img/banner.jpg">
-								  <div class="media__body">
-									<h2>R$19.90</h2>
-									<p>Only</p>
-								  </div>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="wrapper">
-									<h3>LOREM IPSUM IS SIMPLY</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                                                                        <a class="btn btn-3" href="hamburger.php">Conheça nossos combos</a>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</div>
-					</div>
-					<div class="col-xs-6">
-						<div class="box-item">
-							<div class="col-sm-6">
-								<div class="media"><img class="media__image " src="images/2-thumb.jpg">
-								  <div class="media__body">
-									<h2>R$45</h2>
-									<p>Only</p>
-								  </div>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="wrapper">
-									<h3>LOREM IPSUM IS SIMPLY</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                                                                        <a class="btn btn-3" href="pizza.php">Conheça nossas pizzas</a>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</div>
-					</div> 
-				</div>
-
-<!-- ////////////Content Box 03 -->
-<section class="box-content box-3" id="staff">
-    <div class="container">
-        <div class="row heading">
-            <div class="col-lg-12">	
-                <h2>SUPER CHEF</h2>
-                <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut</br> laoreet dolore magna aliquam erat volutpat.
-                    Ut wisi enim ad.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut .</div>
-            </div>
-        </div>
-        <div class="row center">
-            <div class="col-md-6">
-                <div class="wrap-img">
-                    <img src="images/11.jpg">
-                </div>
-                <ul class="list-inline social-buttons">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-pinterest"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <h3>Nibh congue scripserit ne mel</h3>
-                    <p>Nibh congue scripserit ne mel, pri ne amet mnesarchum. Dicat maiestat per modo simul signiferumque te. Dolore intellegat eu cum, ut est Nostro eloquentiam interpretaris vel id. Minim consequuntur et eam, nonumy equidem pri. Vide virtute ocurreret per in antiopam.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- Portifolio 
-
-
-<section class="box-content box-4 box-style" id="portfolio">
-        <div class="container">
+        <section class="box-content box-2 box-style" id="menu">
+            <div class="container">
                 <div class="row heading">
-                        <div class="col-lg-12">	
-            <h2>PORTPOLIO</h2>
-        <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut</br> laoreet dolore magna aliquam erat volutpat.
-                                Ut wisi enim ad.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut .</div>
-        </div>
+                    <div class="col-lg-12">	
+                        <h2>Menu</h2>
+                    </div>   
                 </div>
                 <div class="row">
-                        <div class="col-sm-3">
-                                <div class="portfolio-img">
-                                        <a href="#small-dialog-it" class="play-icon popup-with-zoom-anim"><img src="img/1.jpg" alt=""/></a>
-                                        <div id="small-dialog-it" class="mfp-hide">
-                                                <div class="portfolio-items">
-                                                <img src="img/1.jpg" alt="">
-                                                <h4>Italian Food</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                </div>
-                                        </div>
+                    <div class="col-xs-6">
+                        <div class="box-item">
+                            <div class="col-sm-6">
+
+                                <div class="media"><img class="media__image " src="img/banner.jpg">
+                                    <div class="media__body">
+                                        <h2>R$19.90</h2>
+                                        <p>Only</p>
+                                    </div>
                                 </div>
-                        </div>
-                        <div class="col-sm-3">
-                                <div class="portfolio-img">
-                                        <a href="#small-dialog-in" class="play-icon popup-with-zoom-anim"><img src="img/banner.jpg" alt=""/></a>
-                                        <div id="small-dialog-in" class="mfp-hide">
-                                                <div class="portfolio-items">
-                                                <img src="img/banner.jpg" alt="">
-                    <div class="media__body">
-                                                        <h2>R$45</h2>
-                                                        <p>Only</p>
-                    <a id="compra" class="btn btn-3" href="#">Compre já</a>   
-                                                  </div>
-                                                <h4>Indian Food</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                        
-                        <div class="col-sm-3">
-                                <div class="portfolio-img">
-                                        <a href="#small-dialog-sh" class="play-icon popup-with-zoom-anim"><img src="img/pizzacalabreza.jpg" alt=""/></a>
-                                        <div id="small-dialog-sh" class="mfp-hide">
-                                                <div class="portfolio-items">
-                                                <img src="img/pizzacalabreza.jpg" alt="">
-                                                <h4>Steak House Food</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                </div>
-                <div class="row">
-                        <div class="col-sm-3">
-                                <div class="portfolio-img">
-                                        <a href="#small-dialog-su" class="play-icon popup-with-zoom-anim"><img src="img/Fast_food_French_fries_Beer_Hamburger_Highball_524931_2560x1440.jpg" alt=""/></a>
-                                        <div id="small-dialog-su" class="mfp-hide">
-                                                <div class="portfolio-items">
-                                                <img src="img/Fast_food_French_fries_Beer_Hamburger_Highball_524931_2560x1440.jpg" alt="">
-                                                <h4>Sushi Food</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                        <div class="col-sm-3">
-                                <div class="portfolio-img">
-                                        <a href="#small-dialog-me" class="play-icon popup-with-zoom-anim"><img src="img/pizza.jpg" alt=""/></a>
-                                        <div id="small-dialog-me" class="mfp-hide">
-                                                <div class="portfolio-items">
-                                                <img src="img/pizza.jpg" alt="">
-                                                <h4>Mexican Food</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                        
-                        <div class="col-sm-3">
-                                <div class="portfolio-img">
-                                        <a href="#small-dialog-pi" class="play-icon popup-with-zoom-anim"><img src="img/Pizzaportugueza.jpg" alt=""/></a>
-                                        <div id="small-dialog-pi" class="mfp-hide">
-                                                <div class="portfolio-items">
-                                                <img src="img/Pizzaportugueza.jpg" alt="">
-                                                <h4>PIZZA</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                </div>
-        </div>
-</section>
-<!-- Portifolio -->
-
-
-
-
-<!-- ////////////Fale conosco  -->
-
-
-
-<section class="box-content box-5" id="booking">
-    <div class="container">
-        <div class="row heading">
-            <div class="col-lg-12">	
-                <h2>Fale Conosco </h2>
-                <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut</br> laoreet dolore magna aliquam erat volutpat.
-                    Ut wisi enim ad.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut .</div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 box-item">
-                <div class="row">
-                    <h3>Complete the Submission Form</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-                    <h3>Or Just Make a Call</h3>
-                    <p>+6221 888 888 90 <br>
-                        +6221 888 88891</p>
-                    <p>info@yourdomain.com</p>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <form name="form1" method="post" action="">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control input-lg" name="name" id="name" placeholder="Enter name" required="required" />
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control input-lg" name="email" id="email" placeholder="Enter email" required="required" />
+                            <div class="col-sm-6">
+                                <div class="wrapper">
+                                    <h3>LOREM IPSUM IS SIMPLY</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    <a class="btn btn-3" href="hamburger.php">Conheça nossos combos</a>
+                                </div>
                             </div>
+                            <div class="clear"></div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control input-lg" name="subject" id="subject" placeholder="Subject" required="required" />
+                    <div class="col-xs-6">
+                        <div class="box-item">
+                            <div class="col-sm-6">
+                                <div class="media"><img class="media__image " src="images/2-thumb.jpg">
+                                    <div class="media__body">
+                                        <h2>R$45</h2>
+                                        <p>Only</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <input type="date" class="form-control input-lg" name="date" id="date" placeholder="Date" required="required" />
+                            <div class="col-sm-6">
+                                <div class="wrapper">
+                                    <h3>LOREM IPSUM IS SIMPLY</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    <a class="btn btn-3" href="pizza.php">Conheça nossas pizzas</a>
+                                </div>
                             </div>
+                            <div class="clear"></div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <input type="time" class="form-control input-lg" name="time" id="time" placeholder="Time" required="required" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required"
-                                          placeholder="Message"></textarea>
-                            </div>						
-                            <button type="submit" class="btn btn-4 btn-block" name="btnBooking" id="btnBbooking">
-                                Envie Já</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-</div>
+                    </div> 
+                </div>
+
+               
 
 
-<!-- ////////////Fale conosco  -->
+               
 
-<footer>
-    <div class="wrap-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-footer footer-1">
-                    <div class="footer-heading"><h4>Partners</h4></div>
-                    <div class="content">
+
+
+
+                <!-- ////////////Fale conosco  -->
+
+
+
+                <section class="box-content box-5" id="booking">
+                    <div class="container">
+                        <div class="row heading">
+                            <div class="col-lg-12">	
+                                <h2>Fale Conosco </h2>
+                                 <div class="wrapper">Deixe Um Comentario Para Nós !</div>
+                        </div>
+                            <br>
                         <div class="row">
-                            <!-- Patrocinio 
-    <div class="col-md-6">
-                                            <a href="#"><img src="images/15.jpg" /></a>
-                                    </div>
-                                    <div class="col-md-6">
-                                            <a href="#"><img src="images/16.jpg" /></a>
-                                    </div>
+                            
+                            <div class="col-md-8">
+                                
+                                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
+                                
+                            <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+                            </form>
                             </div>
-                            <div class="row">
-                                    <div class="col-md-6">
-                                            <a href="#"><img src="images/17.jpg" /></a>
-                                    </div>
-                                    <div class="col-md-6">
-                                            <a href="#"><img src="images/18.jpg" /></a>
-                                    </div>
-                            </div>
-                            -->
-
-
                         </div>
+                    </div>
+                </section>
+            </div>
 
+
+            <!-- ////////////Fale conosco  -->
+
+            <footer>
+                <div class="wrap-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-footer footer-1">
+                                <div class="footer-heading"><h4>Partners</h4></div>
+                                <div class="content">
+                                    <div class="row">
+                                    
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-footer footer-2">
+                                <div class="footer-heading"><h4>About Us</h4></div>
+                                <div class="content">
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-footer footer-3">
+                                <div class="footer-heading"><h4>Labels</h4></div>
+                                <div class="content">
+                                    <ul>
+
+                                        <li><a href="#services">Serviços</a></li>
+                                        <li><a href="#menu">Menus</a></li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-footer footer-2">
-                    <div class="footer-heading"><h4>About Us</h4></div>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-footer footer-3">
-                    <div class="footer-heading"><h4>Labels</h4></div>
-                    <div class="content">
-                        <ul>
 
-                            <li><a href="#services">Serviços</a></li>
-                            <li><a href="#menu">Menus</a></li>
-
-
-                        </ul>
-                    </div>
+            </footer>
+            <div class="coppy-right">
+                <div class="wrap-footer">
+                    <div class="clearfix">
+                        <div class="col-md-6 col-md-offset-3">
+                            <p>Copyright 2018 - <a href="" target="_blank" rel="nofollow">Umbrella</a> </p>
+                        </div>
+                    </div>	
                 </div>
             </div>
-        </div>
-    </div>
+            <!-- Footer -->
 
-</footer>
-<div class="coppy-right">
-    <div class="wrap-footer">
-        <div class="clearfix">
-            <div class="col-md-6 col-md-offset-3">
-                <p>Copyright 2018 - <a href="" target="_blank" rel="nofollow">Umbrella</a> </p>
-            </div>
-        </div>	
-    </div>
-</div>
-<!-- Footer -->
-
-<!-- Core JavaScript Files -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.backTop.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $('#backTop').backTop({
-            'position': 1200,
-            'speed': 500,
-            'color': 'red',
-        });
-    });
-</script>
-<script src="js/jquery.contact-buttons.js"></script>
-<script src="js/demo.js"></script>
-</body>
-</html>
+            <!-- Core JavaScript Files -->
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/jquery.backTop.min.js"></script>
+            <script>
+            $(document).ready(function () {
+                $('#backTop').backTop({
+                    'position': 1200,
+                    'speed': 500,
+                    'color': 'red',
+                });
+            });
+            </script>
+            <script src="js/jquery.contact-buttons.js"></script>
+            <script src="js/demo.js"></script>
+            </body>
+            </html>
 
