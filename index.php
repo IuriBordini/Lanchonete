@@ -346,50 +346,21 @@
 
             <!-- ////////////Fale conosco  -->
 
-            <footer>
-                <div class="wrap-footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-footer footer-1">
-                                <div class="footer-heading"><h4>Partners</h4></div>
-                                <div class="content">
-                                    <div class="row">
-                                    
-
-
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div classcol-md-6 col-md-offset-3">
+           <div class="coppy-right">
+    <div class="wrap-footer">
+        <div class="clearfix">
+            <div class="col-md-6 col-md-offset-3">
                                 <div class="footer-heading"><h4>LANCHONETE COLOSSO</h4></div>
                                 <div class="content">
                                     
                                 </div>
                             </div>
-                            
-
-                                        <li><a href="#services">Serviços</a></li>
-                                        <li><a href="#menu">Menus</a></li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </footer>
-            <div class="coppy-right">
-                <div class="wrap-footer">
-                    <div class="clearfix">
-                        <div class="col-md-6 col-md-offset-3">
-                            <p>Copyright 2018 - <a href="" target="_blank" rel="nofollow">Umbrella</a> </p>
-                        </div>
-                    </div>	
-                </div>
+            <div class="col-md-6 col-md-offset-3">
+                <p>Copyright 2018 - <a href="" target="_blank" rel="nofollow">Umbrella</a> </p>
             </div>
+        </div>	
+    </div>
+</div>
             <!-- Footer -->
 
             <!-- Core JavaScript Files -->
