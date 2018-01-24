@@ -65,7 +65,7 @@
                     </button>
                     <a class="navbar-brand" href="#">
                         <img src="images/logo.png" class="hidden-xs" alt="">
-                        <h3 class="visible-xs">RedRestaurant</h3>
+                        <h3 class="visible-xs">Loja Colosso</h3>
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

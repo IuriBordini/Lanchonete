@@ -235,7 +235,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="singlebutton"></label>
   <div class="col-md-4">
-    <button id="singlebutton" name="singlebutton" class="btn btn-success">Finalizar</button>
+      <a class="btn btn-3" href="carrinho.php">Finalizar</a>
   </div>
 </div>
 

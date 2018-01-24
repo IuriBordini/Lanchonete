@@ -204,7 +204,7 @@
                             <div class="wrapper">
                                 <h3>LOREM IPSUM IS SIMPLY</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                                <a class="btn btn-3" href="pedido.php">Compre Já</a>
+                                <a class="btn btn-3" href="pedidpz.php">Compre Já</a>
                             </div>
                         </div>
                         <div class="clear"></div>

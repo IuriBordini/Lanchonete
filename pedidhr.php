@@ -282,7 +282,7 @@
 <div class="control-group">
   <label class="control-label" for="singlebutton"></label>
   <div class="controls">
-    <button id="singlebutton" name="singlebutton" class="btn btn-success">Finalizar</button>
+      <a class="btn btn-3" href="carrinho.php">Finalizar</a>
   </div>
 </div>
 </div>
