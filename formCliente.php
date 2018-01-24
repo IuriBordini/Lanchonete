@@ -18,10 +18,10 @@
         <!-- Custom Theme files -->
         <link href="css/style.css" rel='stylesheet' type='text/css' />
         <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/contact-buttons.css" rel="stylesheet">
+       
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
+      
 
         <!---pop-up-box---->
         <script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
@@ -45,17 +45,12 @@
             });
         </script>
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="js/html5shiv.js"></script>
-            <script src="js/respond.min.js"></script>
-        <![endif]-->
+      
     </head>
     <body>	
 
         <!-- /////////////////////////////////////////Navigation -->
- ->
+
 
     <a id='backTop'>Topo</a>
     <!-- /Back To Top -->
